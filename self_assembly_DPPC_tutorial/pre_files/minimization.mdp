@@ -1,0 +1,46 @@
+;
+; STANDARD MD INPUT OPTIONS FOR MARTINI 2.x
+; Updated 02 feb 2013 by DdJ
+;
+; for use with GROMACS 4.5/4.6
+;
+
+title                    = Martini
+
+
+integrator               = steep ; Run steepest descent energy minimization algorithm
+dt                       = 0.04  
+nsteps                   = 1000  ; Number of steep steps to run
+nstcomm                  = 100
+comm-grps		 = 
+
+nstxout                  = 5000
+nstvout                  = 5000
+nstfout                  = 0
+nstlog                   = 1000  ; Output frequency for energies to log file 
+nstenergy                = 100   ; Output frequency for energies to energy file
+nstxtcout                = 1000  ; Output frequency for .xtc file
+xtc_precision            = 100
+xtc-grps                 = 
+energygrps               = System 
+
+
+nstlist                  = 10
+ns_type                  = grid
+pbc                      = xyz
+rlist                    = 1.4
+
+coulombtype              = PME  ;Reaction_field (for use with Verlet-pairlist) ;PME (especially with polarizable water)
+rcoulomb                 = 1.2
+epsilon_r                = 15	; 2.5 (with polarizable water)
+vdw_type                 = cutoff ;(for use with Verlet-pairlist)   
+rvdw_switch              = 0.9
+rvdw                     = 1.2	;1.1 (for use with Verlet-pairlist)
+
+;cutoff-scheme            = verlet
+;coulomb-modifier         = Potential-shift
+;vdw-modifier             = Potential-shift
+;epsilon_rf               = 0   ; epsilon_rf = 0 really means epsilon_rf = infinity
+;verlet-buffer-drift      = 0.005
+
+constraints              = none 
