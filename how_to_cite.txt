@@ -1,0 +1,38 @@
+#Please, cite the following papers once you use the related model.
+
+###Coarse-Grained Models of Phospholipids
+###
+Model:	DMPC	 		Reference
+Sys.: 	Small size bilayer in water: 204 DMPC, 1600 water beads 
+Cite:	De Nicola, A.; Zhao, Y.; Kawakatsu, T.; Roccatano, D.; Milano, G. Hybrid Particle-Field Coarse-Grained Models for Biological Phospholipids. J. Chem. Theory Comput. 2011, 7 (9), 2947–2962. 
+
+Model:	 DPPC 	
+Sys.:	Small size bilayer in water: 128 DPPC, 2000 water beads
+	Medium size vesicle (outer radius 10 nm) in water: 2014 DPPC, 375638 water beads
+Cite:	De Nicola, A.; Zhao, Y.; Kawakatsu, T.; Roccatano, D.; Milano, G. Hybrid Particle-Field Coarse-Grained Models for Biological Phospholipids. J. Chem. Theory Comput. 2011, 7 (9), 2947–2962. 
+
+Mode:	DOPC
+Sys.:	Small size bilayer in water: 204 DOPC, 1600 water beads 	
+Cite:	De Nicola, A.; Zhao, Y.; Kawakatsu, T.; Roccatano, D.; Milano, G. Hybrid Particle-Field Coarse-Grained Models for Biological Phospholipids. J. Chem. Theory Comput. 2011, 7 (9), 2947–2962. 
+
+Model:	DSPC 	
+Sys.:	Small size bilayer in water: 204 DOPC, 1600 water beads
+Cite:	De Nicola, A.; Zhao, Y.; Kawakatsu, T.; Roccatano, D.; Milano, G. Hybrid Particle-Field Coarse-Grained Models for Biological Phospholipids. J. Chem. Theory Comput. 2011, 7 (9), 2947–2962. 
+
+Model:	POPG
+Sys.: 	Medium size bilayer in water: 304 POPG, 304 Na+, 16296 water beads 	
+Cite:	Kolli, H. B.; De Nicola, A.; Bore, S. L.; Schäfer, K.; Diezemann, G.; Gauss, J.; Kawakatsu, T.; Lu, Z.; Zhu, Y.-L. Y.; Milano, G.; Cascella M. Hybrid Particle-Field Molecular Dynamics Simulations of Charged Amphiphiles in an Aqueous Environment. J. Chem. Theory Comput. 2018, 14 (9), 4928–4937. 
+
+
+
+### Coarse-Grained Models of Surfactants
+###
+Model:	Pluronics L64 	
+Sys.:	Hexagonal phase of Pluronics L64: 650 L64 molecules 	
+Cite:	De Nicola, A.; Kawakatsu, T.; Milano, G. A Hybrid Particle-Field Coarse-Grained Molecular Model for Pluronics Water Mixtures. Macromol. Chem. Phys. 2013, 214 (17), 1940–1950. 
+
+Model:	Triton TX-100 
+Sys.:	Single micelle in water, 143 T-X100 molecules, 64983 water beads.
+Cite:	De Nicola, A.; Kawakatsu, T.; Rosano, C.; Celino, M.; Rocco, M.; Milano, G. Self-Assembly of Triton X-100 in Water Solutions: A Multiscale Simulation Study Linking Mesoscale to Atomistic Models. J. Chem. Theory Comput. 2015, 11 (10), 4959–4971.  
+
+
